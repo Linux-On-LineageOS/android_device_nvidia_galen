@@ -147,3 +147,4 @@ ifeq ($(TARGET_TEGRA_BOOTCTRL),efi)
 # Bootloader update not supported
 endif
 endif
+$(call inherit-product, vendor/lindroid/lindroid.mk)
